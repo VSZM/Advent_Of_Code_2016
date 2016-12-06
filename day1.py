@@ -37,7 +37,7 @@ def second_solution():
         else:
             direction =  turn_right(direction)
         motionvector = direction_to_motionvector(direction)    
-        for i in range(int(instruction[1:])):
+        for _ in range(int(instruction[1:])):
             x += motionvector[0]
             y += motionvector[1]
             
